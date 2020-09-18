@@ -1,0 +1,461 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-seriff;
+}
+/*---------Navbar--------*/
+
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 320px;
+    border-radius: px;
+}
+
+.navbar{
+    background-color: #fff;
+    padding: 0;
+   
+}
+.navbar:hover{
+    opacity: 0.8;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #db9200 !important;
+    font-weight: 600;
+    
+}
+.navbar-nav li a:hover{
+    background-color: #db9200;
+    color: black !important;
+    opacity: 1;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none;
+    
+}
+
+.nav-link{
+    text-align: left;
+    float: right;
+}
+/*---------Form ---------*/
+input[type="text"], input[type="radio"],input[type="checkbox"],input[type="tel"],input[type="date"]{
+    margin-top: 15px;
+}
+input[type="radio"],input[type="checkbox"]{
+
+    margin-left: 4px;
+
+}
+
+.label{
+    margin-top: 16px;
+}
+#requirements{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#form textarea{
+    margin-bottom: 16px;
+    margin-left: 1px;
+}
+.containerform {
+    margin: 40px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*-------banner section----------*/
+#banner{
+    background-image:url("./img/home.jpg");
+    color: #fff;
+    padding-top: 5%;
+    filter: brightness(80%);
+    width: 100%;
+    height: 580px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    font-weight: 800;
+    color: #1177ca;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.promo-services{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-weight: 800;
+    color: #002e53;
+    margin-bottom: 70px;
+}
+.promo-about{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-weight: 800;
+    color: #043257;
+    margin-bottom: 100px;
+}
+
+/*--------Content---------*/
+
+.box{
+    width: 200px;
+    padding: 10px;
+    border: 5px 5px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+.box-product{
+    width: 200px;
+    padding: 10px;
+    border: 5px 5px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px;
+    text-align: center;
+    align-items: center;
+}
+#products{
+    margin-top: 50px;
+}
+
+.product-img{
+    width: 200px; height: auto; border-radius: 50%;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+    
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.img-fluid{
+    margin-bottom: 50px;
+    border-radius: 12px;
+    margin-left: 70px;
+    max-width: 500px;
+    max-height: 500px;
+
+}
+.bottom-img{
+    width: 100%;
+    height: auto;
+}
+/*-----services section------*/
+#buy{
+    align-content: center;
+}
+#services{
+    padding: 80px 0px;
+}
+.services-img{
+    width: 100px;
+    margin-top: 20px
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background: #ecbe61ef;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #083255;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);    
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,#518dbd,#4ea4eb);
+}
+
+/*---------About Us---------*/
+#about-us{
+    background: #fdf3deef;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #02335c;
+    text-align: center;
+}
+
+#about-us{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #02335c;
+    text-align: center;
+    }
+
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li{
+    margin: 10px 0;
+}
+#about-us ul{
+    margin-left: 20px;
+}
+.travel{
+    margin-top: 50px;
+    width: 25%;
+}
+#image{
+    margin-top: 30px;
+}
+
+/*----------Testimonials-----------*/
+#testimonials{
+    margin: 100px 0px 0px 0px;
+    background-color: #fdf3deef;
+    
+}
+.testimonial-banner{
+    width: 40%; 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-bottom: 50px; 
+    margin-top: 50px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.test1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.testimonials{
+    border-left: 4px solid #f5c977;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*---------------footer-------------*/
+#social-media{
+    background-image: linear-gradient(#fdf3deef, #e99b1fef);
+  
+    padding: 20px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    border-radius: 20%;
+    margin-left: 10px;
+    width: 50px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+#footer{
+    background-color:  #e99b1fef;
+    color: #fff;
+}
+.footer-box{
+    padding: 20px;
+}
+#contact{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.footer-box img{
+   height: 130px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    
+}
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 50px;
+   
+}
+#subscribe{
+
+   margin-top: 25px;
+}
+.margin-top-100{
+    margin-top: 50px;
+    
+}
+
+.ref{
+    color: white;
+    line-height: 2.5;
+    padding-left: 100px;
+  
+}
+/*----------Custom Pages CSS ---------*/
+#enquiry{
+    border: thistle;
+    padding: 10%;
+}
+table #email,#name,#query,#phone{
+    margin-top: 10px;
+}
+table #submit{
+    margin-top: 10px;
+}
+
+#imgquote{
+    width: 70%;
+    height: 70%;
+    margin-top: 200px;
+}
+
+
+.thumbnail{
+    border-radius: 50%;
+    width: 50%;
+
+}
+
+#history{
+    padding: 20px 20px;
+    background-color:#fdf3deef;
+}
+
+.terms{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*----------Responsiveness----------*/
+
+@media only screen and (max-width: 600px){
+   
+    #imgquote{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .thumbnail{
+        border-radius: 50%;
+        width: 10%;
+        
+    }
+    #image{
+        width: 40%;
+        margin-top: 20px;
+    }
+    table #email, #name,#query,#phone, #package, #requirements, #date{
+        width: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #submit{
+        margin-left: -200px;
+    }
+    #budget{
+        width: 5%;
+    }
+    .title::before{
+        content: '';
+        background: none;
+        height: 5px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    .title::after{
+        content: '';
+        background: none;
+        height: 10px;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        display: block;
+        transform: translateY(8px);    
+    }
+    .ref{
+        color: white;
+        line-height: 2.5;
+        padding-left: 0px;
+        text-decoration: underline;
+    }
+    .thumbnail{
+        display: none;
+    }
+}

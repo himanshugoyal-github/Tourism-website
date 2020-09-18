@@ -1,0 +1,142 @@
+<html>
+<head>
+  <title>Tourism Company</title>
+  <link rel = "icon" href =  "./img/title.png" type = "image/x-icon" > 
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <!-- -------logo -------------->
+
+      <a class="navbar-brand" href="index.html"><img src="./img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i style="color: black;" class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ourpackages.html">PLAN YOUR TRIP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Aboutus.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonials.html">TESTIMONIALS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+<!------------Banner Section------------->
+  <section id="banner" style="height: 150px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="promo-title">FEED YOUR WANDERLUST!</p>
+        </div>
+      </div>   
+    </section>
+
+
+<!------------- Enquiry ------------------->
+
+<div class="containerform">
+    <h1 class="title text-center">ENQUIRY</h1>
+    <div class="row">
+        <div class="col-md-6 about-us">
+        <p class="about-title">Please fill the form below...</p>  
+            <form id='form' action="submit.html">
+                <table border='0' width='480px'>
+                    <tr>
+                        <td>Your Name : </td> <td><input class="form-control"  type="text" id="name" placeholder="Name..." required></td>
+                    </tr>
+                    <tr>
+                         <td>Your Query : </td> <td><textarea class="form-control" id="query" cols="40" rows="5" placeholder="Query..." required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Contact Number :</td> <td><input class="form-control" type="tel"  id="phone" placeholder="9898989898" required></td>
+                    </tr>
+                    <tr>
+                        <td><br>Email :</td> <td><br><input class="form-control"type="Email"  id="email" placeholder="abc@gmail.com" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><br><button id="submit"  type="submit" class="btn btn-primary">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="col-md-6">
+        <img id="image" src="./img/enquiry.png" class="img-fluid">
+        </div>
+        </div>
+        </div>
+
+
+
+
+<!------------Social Media----------------->
+<section id="social-media">
+  <div class="container text-center">
+    <p> FIND US ON SOCIAL MEDIA </p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/festo_event_company/?hl=en"  target="_blank"><img src="./img/instagram.png"></a>
+      <a href="#"><img src="./img/facebook.png"></a>
+      <a href="#"><img src="./img/twitter.png"></a>
+      <a href="#"><img src="./img/youtube.png"></a>
+    </div>
+  </div>
+</section>  
+
+<!----------footer------------->
+<section id="footer">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-4 footer-box">
+        <img src="./img/logo.png" style="width: 320px; height: 80px; margin-top: 10px; ">
+        <iframe src="https://maps.google.com/maps?q=28.649990, 77.185492&z=15&output=embed" width="310" height="175" frameborder="0" style="border:0"></iframe>
+
+      </div>
+      <div class="col-md-4 margin-top-100">
+        <h4 class="ref" style="text-decoration: none !important;">Important links  </h4>
+        <a class="ref" href="aboutus.html">About Us</a><br>
+        <a class="ref" href="ourpackages.html">Packages</a><br>           
+        <a class="ref" href="#">Terms and Conditions</a><br>
+        <a class="ref" href="contact.html">Contact Us</a><br>
+
+
+      </div>
+      <div class="col-md-4 footer-box">
+        <p id="contact"><b>CONTACT US</b></p>
+        <p><i class="fa fa-map-marker"></i> Block 29, Karol Bagh, Delhi, 110005</p>
+        <p><i class="fa fa-phone"></i> +919898989898</p>
+        <p><i class="fa fa-envelope-o"></i> events@festo.com</p>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+</section>  
+
+
+</body>
+</html>
